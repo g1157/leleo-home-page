@@ -4,7 +4,7 @@ const config = {
     title: 'Blue_noblue的个人主页🎉',
     description: '欢迎来到Blue的奇妙世界！',
     keywords: 'Blue_noblue,个人主页,个人网站',
-    icon: '/favicon.ico'   //网页图标，支持外链
+    icon: '/img/1.jpg'   //网页图标，支持外链
   },
 
   avatar: "/img/1.jpg", // 头像
@@ -20,16 +20,16 @@ const config = {
   blur: 5, // 毛玻璃模糊效果
 
   // 我的标签
-  tags : ['乐观开朗','温柔体贴','随和亲切','冷静沉着','才思敏捷','风趣幽默','刚正不阿','善解人意'],
+  tags : ['真诚固执','友善助人','独立思考'],
 
   // 默认背景壁纸
   background: {
     "pc":{   //pc端
       "type":"pic",   //"pic":静态壁纸;"video":动态壁纸
       "datainfo":{
-        "title":"海洋女孩", 
-        "preview":"/img/wallpaper/static/海洋女孩/image-pre.webp",
-        "url":"/img/wallpaper/static/海洋女孩/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
+        "title":"书房夜晚", 
+        "preview":"/img/wallpaper/static/书房夜晚/image-pre.webp",
+        "url":"/img/wallpaper/static/书房夜晚/image.png",     //当然，也可填写网络地址或壁纸api，如随机PC壁纸api："url":"https://t.mwm.moe/pc"
       },
     },
     "mobile":{   //移动端
@@ -45,26 +45,28 @@ const config = {
 
   //极坐标图数据
   polarChart:{
-    skills: ['Vue.js', 'React', 'JavaScript', 'Node', 'Java', 'Python', 'linux', 'Docker', 'MySQL', 'MongoDB', 'AWS'],
-    skillPoints: [85, 78, 88, 90, 80, 78, 85, 65, 82, 78, 70],
+    // skills: ['Vue.js', 'React', 'JavaScript', 'Node', 'Java', 'Python', 'linux', 'Docker', 'MySQL', 'MongoDB', 'AWS'],
+    // skillPoints: [85, 78, 88, 90, 80, 78, 85, 65, 82, 78, 70],
+    skills: ['Energy', 'Curiosity', 'Courage', 'Skills', 'Ambition'],
+    skillPoints: [85, 75, 90, 75, 75], //技能点数
   },
 
   //社交按钮
   socialPlatformIcons: [
-    {icon:"mdi-github",link:"https://www.github.com/leleo886"},
-    {icon:"mdi-email",link:"mailto:leleo886@foxmail.com"},
+    {icon:"mdi-github",link:"https://github.com/g1157"},
+    {icon:"mdi-email",link:"mailto:g1157143860@gmail.com"},
     {icon:"mdi-qqchat",link:"https://im.qq.com/"},
     {icon:"mdi-wechat",link:"https://wx.qq.com/"},
     {icon:"mdi-youtube",link:"https://www.youtube.com"},
-    {icon:"mdi-facebook",link:"https://www.facebook.com"}
+    //{icon:"mdi-facebook",link:"https://www.facebook.com"}
   ],
 
   //打字机
   typeWriterStrings: [
-    "如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
-    "顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
-    "心简单，世界就简单，幸福才会生长；心自由，生活就自由，到哪都有快乐。",
-    "生命太短，没有时间留给遗憾，若不是终点，请微笑一直向前。"
+    // "如果你看到了这行字，说明我已经成功吸引到了你的注意力。",
+    // "顶峰的少年，给了你所有细节，你却说我不是迪迦，给不了你想要的光。",
+    // "心简单，世界就简单，幸福才会生长；心自由，生活就自由，到哪都有快乐。",
+     "GO GO GO!"
   ],
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
@@ -133,7 +135,7 @@ const config = {
 
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
-    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Project 1",subtitle:"1,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Blog",subtitle:"record the moment", text:"以失去的心态去拥有",url:"https://blog.117911.xyz",show:false},
     {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Project 2",subtitle:"2,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
