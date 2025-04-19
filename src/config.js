@@ -8,7 +8,7 @@ const config = {
   },
 
   avatar: "/img/1.jpg", // 头像
-  welcometitle: "Hi, I'm Blue", // 标题
+  welcometitle: "Blue_noblue", // 标题
 
   // 颜色配置
   color: {
