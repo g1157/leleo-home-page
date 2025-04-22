@@ -136,7 +136,7 @@ const config = {
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
   projectcards:[ 
     {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Blog",subtitle:"record the moment", text:"以失去的心态去拥有",url:"https://blog.117911.xyz",show:false},
-    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Alist",subtitle:"files", text:"documents.",url:"https://alist.117911.xyz",show:false},
+    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Alist",subtitle:"files", text:"documents.",url:"https://gluyfikiceiq.ap-southeast-1.clawcloudrun.com/",show:false},
     // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
