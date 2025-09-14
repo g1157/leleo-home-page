@@ -137,8 +137,8 @@ const config = {
   projectcards:[ 
     {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Blog",subtitle:"record the moment", text:"以失去的心态去拥有",url:"https://blog.117911.xyz",show:false},
     {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Alist",subtitle:"files", text:"documents.",url:"https://gluyfikiceiq.ap-southeast-1.clawcloudrun.com/",show:false},
-    // {go:"📝 前往",img:"/img/sunshine.jpg",title:"Project 3",subtitle:"3,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    // {go:"👍 前往",img:"/img/sunshine.jpg",title:"Project 4",subtitle:"4,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
+    {go:"📝 前往",img:"/img/sunshine.jpg",title:"LibreTV",subtitle:"online watch films and Anime", text:"",url:"hhttps://libretv-cx1.pages.dev/",show:false},
+    {go:"👍 前往",img:"/img/sunshine.jpg",title:"Sink",subtitle:"化繁为简", text:"将无意义长连接用短链接形式分享并分析点击",url:"https://leleo.top",show:false},
     // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
