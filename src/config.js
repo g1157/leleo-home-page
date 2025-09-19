@@ -140,7 +140,8 @@ const config = {
     {go:"📝 前往",img:"/img/sunshine.jpg",title:"Gemini_balance",subtitle:"", text:"",url:"http://44.244.114.59:8000",show:false},
     {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Alist",subtitle:"files", text:"documents.",url:"https://gluyfikiceiq.ap-southeast-1.clawcloudrun.com/",show:false},
     {go:"📝 前往",img:"/img/sunshine.jpg",title:"LibreTV",subtitle:"online watch films and Anime", text:"",url:"hhttps://libretv-cx1.pages.dev/",show:false},
-      {go:"📝 前往",img:"/img/sunshine.jpg",title:"LibreTV",subtitle:"online watch films and Anime", text:"",url:"hhttps://libretv-cx1.pages.dev/",show:false},
+    {go:"🔧 前往",img:"/img/sunshine.jpg",title:"gemini-balance",subtitle:"balance your gemini", text:"a tool for gemini",url:"http://44.244.114.59:8000",show:false},
+    {go:"🔧 前往",img:"/img/sunshine.jpg",title:"gemini-balance",subtitle:"balance your gemini", text:"a tool for gemini",url:"http://44.244.114.59:8000",show:false},
 
     // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
     // {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
