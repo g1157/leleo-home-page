@@ -71,9 +71,9 @@ const config = {
 
   //音乐播放配置，采用MetingJS Api(https://github.com/metowolf/MetingJS)
   musicPlayer:{
-    server: 'netease',  //服务提供商 --网易云音乐
-    type: 'playlist',   //歌单类型
-    id: '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
+    server: import.meta.env.VITE_MUSIC_PLAYER_SERVER || 'netease',  //服务提供商 --网易云音乐
+    type: import.meta.env.VITE_MUSIC_PLAYER_TYPE || 'playlist',   //歌单类型
+    id: import.meta.env.VITE_MUSIC_PLAYER_ID || '2028178887'  //歌单id ---> music.163.com/#/playlist?id=2028178887
   },
 
   //壁纸数据 -----可以将壁纸文件上传到uhsea.com获取网络直链。若想调用api，请前往脚本自行修改逻辑
@@ -134,20 +134,13 @@ const config = {
   },
 
   //项目卡片 其中 字段"show"控制初始卡片的text是否展开
-  projectcards:[ 
-    {go:"🚀 前往",img:"/img/sunshine.jpg",title:"Blog",subtitle:"record the moment", text:"以失去的心态去拥有",url:"https://blog.117911.xyz",show:false},
-    {go:"👍 前往",img:"/img/sunshine.jpg",title:"Sink",subtitle:"化繁为简", text:"将无意义长连接用短链接形式分享并分析点击",url:"https://sink.117911.xyz",show:false},
-    {go:"📝 前往",img:"/img/sunshine.jpg",title:"Gemini_balance",subtitle:"", text:"",url:"http://44.244.114.59:8000",show:false},
-    {go:"🗂️ 前往",img:"/img/sunshine.jpg",title:"Alist",subtitle:"files", text:"documents.",url:"https://gluyfikiceiq.ap-southeast-1.clawcloudrun.com/",show:false},
-    {go:"📝 前往",img:"/img/sunshine.jpg",title:"LibreTV",subtitle:"online watch films and Anime", text:"",url:"hhttps://libretv-cx1.pages.dev/",show:false},
-    {go:"🔧 前往",img:"/img/sunshine.jpg",title:"gemini-balance",subtitle:"balance your gemini", text:"a tool for gemini",url:"http://44.244.114.59:8000",show:false},
-    {go:"🔧 前往",img:"/img/sunshine.jpg",title:"gemini-balance",subtitle:"balance your gemini", text:"a tool for gemini",url:"http://44.244.114.59:8000",show:false},
-
-    // {go:"🗃 前往",img:"/img/sunshine.jpg",title:"Project 5",subtitle:"5,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    // {go:"🎨 前往",img:"/img/sunshine.jpg",title:"Project 6",subtitle:"6,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    // {go:"💍 前往",img:"/img/sunshine.jpg",title:"Project 7",subtitle:"7,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-    // {go:"🔍 前往",img:"/img/sunshine.jpg",title:"Project 8",subtitle:"8,000 miles of wonder", text:"If you see this line, I've managed to get your attention.",url:"https://leleo.top",show:false},
-  ],
+  projectcards: JSON.parse(import.meta.env.VITE_PROJECT_CARDS || `[
+    {"go":"🚀 前往","img":"/img/sunshine.jpg","title":"Blog","subtitle":"record the moment", "text":"以失去的心态去拥有","url":"https://blog.117911.xyz","show":false},
+    {"go":"👍 前往","img":"/img/sunshine.jpg","title":"Sink","subtitle":"化繁为简", "text":"将无意义长连接用短链接形式分享并分析点击","url":"https://sink.117911.xyz","show":false},
+    {"go":"📝 前往","img":"/img/sunshine.jpg","title":"Gemini_balance","subtitle":"", "text":"","url":"http://44.244.114.59:8000","show":false},
+    {"go":"🗂️ 前往","img":"/img/sunshine.jpg","title":"Alist","subtitle":"files", "text":"documents.","url":"https://gluyfikiceiq.ap-southeast-1.clawcloudrun.com/","show":false},
+    {"go":"📝 前往","img":"/img/sunshine.jpg","title":"LibreTV","subtitle":"online watch films and Anime", "text":"","url":"https://libretv-cx1.pages.dev/","show":false}
+  ]`),
   
   // statement: ["备案号：XXICP备123456789号","Copyright © 2025 Blue_noblue"],
   statement: ["connect the dots."],
